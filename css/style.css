@@ -1,0 +1,70 @@
+/* General styles 
+	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+
+.col-md-2 {
+	background-color: yellow;
+	border: 1px solid green;
+}
+
+.col-md-3 {
+	background-color: MistyRose;
+	border: 1px solid green;
+}
+
+.col-md-6 {
+	background-color: PowderBlue;
+	border: 1px solid green;
+}
+
+
+
+/* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+/*mobile first approach*/
+/*iPhone portrait*/
+@media only screen and (min-width: 320px) {
+	body  {
+		color:purple;
+	}
+}
+
+/*iPhone landscape*/
+@media only screen and (min-width: 480px) {
+	body  {
+		color:green;
+	}
+}
+
+
+
+/*ipad potrait*/
+@media only screen and (min-width: 768px) {
+	body  {
+		color:red;
+	}
+}
+
+/*ipad lanscape / small laptop*/
+@media only screen and (min-width: 1024px) {
+	body  {
+		color:blue;
+	}
+}
+
+*/
